@@ -1,0 +1,191 @@
+#Credit,
+#searching,
+#searchField,
+#Games,
+#Companies {
+    width: 85%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    
+    font-size: 100%;
+    
+    border-radius: 15px;
+    
+    display: none;
+}
+
+#Credit {
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    
+    font-size: 120%;
+}
+
+#suggestFieldPie {
+    width: 85%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    
+    font-size: 100%;
+    
+    border-radius: 15px;
+}
+
+#suggestFieldPie {
+    cursor: pointer;
+}
+
+#suggestFieldPieLabel {
+    
+    width: 85%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    
+    
+    
+    
+    border-radius: 15px;
+}
+
+#suggestField {
+    width: 85%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    
+    font-size: 100%;
+    
+    border-radius: 15px;
+}
+
+#searching {
+    text-align: center;
+    font-size: 300%;
+    color: #2c2c2c;
+    margin-top: 200px;;
+    margin-right: auto;
+}
+
+.companies,
+.games {
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+    cursor: pointer;
+    color: orangered;
+}
+
+.gamesNotIn {
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+    cursor: pointer;
+    color: orangered;
+}
+
+.games:hover {
+    color: orange;
+}
+
+.companies:hover {
+    color: orange;
+}
+
+.gameCarousel {
+    height: 200px !important;
+    width: 200px !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    cursor: crosshair;
+}
+
+.smallImages {
+    height: 200px !important;
+    width: 200px !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    cursor: crosshair;
+}
+
+#gameCarousel {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.largeImages {
+    width: 500px !important;
+    height: 600px !important;
+}
+
+.gameC {
+    font-size: xx-large;
+}
+
+.panel-group a {
+    color: black;
+}
+
+.companyLogo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 300px !important;
+    height: 200px !important;
+}
+
+.float-right {
+    float: right;
+    outline: none !important;
+}
+
+.displayLikes {
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+    padding-left: 10px;
+    color: black;
+}
+
+.gameName {
+    display: inline;
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+}
+
+.like {
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+    color: red;
+}
+
+.justLike {
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+}
+
+.dislikeButton,
+.removeButton {
+    outline: none !important;
+}
+
+.label,
+.total {
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+

@@ -1,0 +1,30 @@
+.customSearch {
+    border-radius: 10px;
+    background-color: #2c2c2c;
+    color: windowframe;
+    border-color: black;
+}
+
+.customSearch:focus {
+    outline: none !important;
+}
+
+#searchSettings {
+    overflow: auto;
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: orangered !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px orangered !important;
+    color: #2c2c2c;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+
+#searchSettings li a:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.searchTitle {
+    font-size: 130%;
+    font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+}

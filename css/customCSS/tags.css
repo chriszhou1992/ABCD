@@ -1,0 +1,231 @@
+/* 
+    Document   : tags
+    Author     : ZHOU
+    Description:
+        Define styles for tags.
+*/
+/*
+	bottom holders: fa-square-o fa-circle-o fa-certificate
+	top stacks: fa-flag-o fa-flag-checkered fa-bookmark-o
+		fa-pagelines fa-book fa-beer fa-asterisk
+		fa-camera-retro fa-lemon-o fa-smile-o fa-sun-o
+		fa-bell-o fa-clock-o fa-check-square fa-coffee
+		fa-compass fa-desktop fa-fire fa-glass
+		fa-heart-o fa-home fa-key fa-keyboard-o
+		fa-laptop fa-leaf fa-meh-o fa-minus fa-mobile
+		fa-moon-o fa-pencil fa-music fa-plus fa-search-plus
+		fa-share fa-star fa-thumb-tack fa-tag fa-trophy
+		fa-umbrella fa-user 
+	reject: fa-times accept: fa-check
+
+
+*/
+
+#tags {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.tag {
+	border-color: #FFFFFF;
+	border-style: double;
+	border-width: 2px;	/*top=bottom=left=right=1px*/
+	display: inline-block;
+	margin: 5px 10px;
+	padding: 5px 10px;
+	overflow: hidden;
+	opacity: 1;
+	cursor: pointer;
+        border-radius: 10px;
+        font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+}
+
+.tagLikes {
+	display: inline;
+}
+
+.emptyTag {
+	border-color: blue;
+	border-style: dashed;
+	border-width: 1px;	/*top=bottom=left=right=1px*/
+	display: inline-block;
+	margin: 5px 10px;
+	padding: 5px 10px;
+	overflow: hidden;
+	cursor: pointer;
+	background-color: white;
+	opacity: 1;
+}
+
+.emptyTag i {
+	margin-right: 5px;
+}
+
+.tagForm {
+	display: none;
+	bottom: 0;
+	font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    /*font-weight: bolder;
+    background-color: #2c2c2c;
+    border-color: #2c2c2c;
+    outline: none;*/
+
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.5em;
+    box-shadow: 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.05) inset;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 1em;
+    outline: medium none;
+    padding: 8px 1em;
+    position: relative;
+    transition: all 0.35s ease-in-out 0s;
+	width: 50%;
+	margin-right: 10px;
+}
+
+#companyField input.text:focus, form select:focus, form textarea:focus {
+	background: none repeat scroll 0 0 #FFFFFF;
+	box-shadow: 0 0 2px 1px #E0E0E0;
+}
+
+#tagButton {
+	display: none;
+	bottom-padding: 10px;
+}
+
+.gradient0 {
+	background-color: #fef6ce;
+	/*outline: 1px double #CC9999;	/*double outline*/
+}
+
+.gradient1 {
+	background-color: #ffdcd5;
+}
+
+.gradient2 {
+	background-color: #e2efcc;
+}
+
+.gradient3 {
+	background-color: #a6e0eb;
+}
+
+.gradient4 {
+	background-color: #dfe2ef;
+}
+
+.gradient5 {
+	background-color: #f9e7d8;
+}
+
+.gradient6 {
+	background-color: #00998a;
+}
+
+.gradient7 {
+	background-color: #5d96ac;
+}
+
+
+.gradient8 {
+	background-color: #ef8a58;
+}
+
+
+.gradient9 {
+	background-color: #66b82b;
+}
+
+
+.gradient10 {
+	background-color: #e050c3;
+}
+
+.gradient11 {
+	background-color: #ddaee8;
+}
+
+.gradient12 {
+	background-color: #bfcaff;
+}
+
+.gradient13 {
+	background-color: #bffff3;
+}
+
+.gradient14 {
+	background-color: #caffbf;
+}
+
+.gradient15 {
+	background-color: #efa17b;
+}
+
+/*****border examples*****/
+#Example_A {
+height: 65px;
+width:160px;
+-moz-border-radius-bottomright: 50px;
+border-bottom-right-radius: 50px;
+}
+
+#Example_B {
+height: 65px;
+width:160px;
+-moz-border-radius-bottomright: 50px 25px;
+border-bottom-right-radius: 50px 25px;
+}
+
+#Example_C {
+height: 65px;
+width:160px;
+-moz-border-radius-bottomright: 25px 50px;
+border-bottom-right-radius: 25px 50px;
+}
+
+#Example_D {
+height: 5em;
+width: 12em;
+-moz-border-radius: 1em 4em 1em 4em;
+border-radius: 1em 4em 1em 4em;
+}
+
+#Example_E {
+height: 65px;
+width:160px;
+-moz-border-radius: 25px 10px / 10px 25px;
+border-radius: 25px 10px / 10px 25px;
+}
+
+
+/*box shadow example:*/
+#mybox {
+	box-shadow:
+	  0 0 0 1px #CCC,
+	  0 0 0 2px #888,
+	  0 0 0 3px #444,
+	  0 0 0 4px #000;
+	-moz-box-shadow:
+	  0 0 0 1px #CCC,
+	  0 0 0 2px #888,
+	  0 0 0 3px #444,
+	  0 0 0 4px #000;
+	-webkit-shadow:
+	  0 0 0 1px #CCC,
+	  0 0 0 2px #888,
+	  0 0 0 3px #444,
+	  0 0 0 4px #000;
+}
+
+/*two border example*/
+div.border {
+    border: 1px solid #000;
+    position: relative;
+}
+div.border:before {
+    position: absolute; display: block; content: '';
+    border: 1px solid red;
+    height: 100%; width: 100%;
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}

@@ -1,0 +1,177 @@
+body {
+    padding-top: 60px;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+.navbar-brand {
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    word-spacing: 3px;
+    font-size: 100%;
+    font-weight: bolder;
+    color: red !important;
+    cursor: default;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-right: black solid;
+    text-shadow: 5px 5px 3px black;
+}
+
+.navbar-nav li {
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-size: 100%;
+}
+
+.navbar-nav .customBorder {
+    border-right: black solid;
+}
+
+.navbar-nav .customBorder:last-child {
+    //border-right: none;
+}
+
+.navbar-nav .customBorder a:hover {
+    //color: red !important;
+    //text-shadow: 5px 5px 3px black;
+    background: brown !important;
+}
+
+.navbar-nav .customActive {
+    //background: red !important;
+}
+
+.navbar-nav .customActive:hover {
+    //background: red !important;
+}
+
+.navbar-nav .customActive a {
+    color: red !important;
+    text-shadow: 5px 5px 3px black;
+}
+
+.navbar-nav .customActive a:hover {
+    //color: white !important;
+    //text-shadow: none;
+    background: none !important;
+}
+
+.navbar-form input {
+    width: 320px;
+    border-radius: 15px;
+    margin-right: 5px;
+    background-color: #2c2c2c;
+    border-color: black;
+}
+
+.navbar-form input:focus {
+    background-color: whitesmoke;
+}
+
+.customClose {
+    margin-top: 7px;
+    outline: none !important;
+    color: whitesmoke;
+    font-size: 0.8em;
+}
+
+.customClose:hover {
+    color: white;
+}
+
+.alert-black {
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    background-color: #2c2c2c;
+    color: white;
+}
+
+.alert-white {
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    background-color: white;
+    color: black;
+    font-size: 100%;
+}
+
+.customStrong {
+    color: red;
+    text-shadow: 5px 5px 3px black;
+}
+
+.customWarning {
+    color: red;
+}
+
+.customInfo {
+    color: red;
+}
+
+.dropdown-toggle .fa-user {
+    color: brown;
+}
+
+.caretBrown {
+    color: brown;
+}
+
+.suggestGames {
+    border-left: black solid;
+}
+
+.blink {
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+
+.blink a {
+    
+}
+
+@-moz-keyframes blinker {  /* Decimal not necessary, 0 and 1 is enough */
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+
+.jumbotron {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    background-color: white;
+}
+
+.jumbotron h2 {
+    font-family: Papyrus, fantasy;
+    font-size: 1.4em;
+    font-weight: bolder;
+}
+
+.jumbotron p {
+    font-family: Papyrus, fantasy;
+    font-size: 0.8em;
+}
+
+#try {
+    font-family: Papyrus, fantasy;
+    font-size: 0.7em;
+}

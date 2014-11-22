@@ -1,0 +1,19 @@
+.gamesLM {
+    color: #CCC;
+    cursor: pointer;
+}
+
+.gamesLM:hover {
+    color: #2c2c2c;
+    cursor: pointer;
+}
+
+.companiesLM {
+    color: #CCC;
+    cursor: pointer;
+}
+
+.companiesLM:hover {
+    color: #2c2c2c;
+    cursor: pointer;
+}

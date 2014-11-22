@@ -1,0 +1,5 @@
+.removeCompanies,
+.removeGames {
+    padding-right: 10px;
+    cursor: pointer;
+}

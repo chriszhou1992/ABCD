@@ -1,0 +1,54 @@
+/*element.style {
+
+}
+
+.ss-container {
+	width: 100%;
+	position: relative;
+	text-align: left;
+	float: left;
+	overflow: hidden;
+	padding-bottom: 500px;
+}
+
+user agent stylesheetdiv {
+	display: block;
+}
+
+.ss-container:before {
+	position: absolute;
+	width: 4px;
+	background: rgba(17,17,22,0.8);
+	top: 0px;
+	left: 50%;
+	margin-left: -2px;
+	content: '';
+	height: 100%;
+}
+*/
+body {
+    background: #000000 url(../images/old_wall.jpg) repeat top left;
+    color: rgba(0,0,0,0.8);
+    font-family: 'Kelly Slab','Myriad Pro', Arial, sans-serif;
+    font-size: 15px;
+}
+
+element.style {
+}
+.dsk-supported .dsk-linewrapper {
+	height: 10px;
+	bottom: 20%;
+	width: 100%;
+	background: rgba(255,255,255, 0.3);
+	box-shadow: 0 1px rgba(255,255,255,0.15) inset;
+	position: absolute;
+	bottom: 20%;
+	color: #fff;
+        display: block;
+}
+user agent stylesheetdiv {
+	display: block;
+}
+#dasky {
+	font-family: 'Droid Sans', sans-serif;
+}
