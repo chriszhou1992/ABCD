@@ -12,11 +12,15 @@ $("#companyField").on("click", "#showTimeline", function () {
         //categories: []
     });
     $('#timeline').on('ajaxLoaded.timeline', function (e) {
-    //$('#timeline').find('.item_open').each( function (index, e) {
-        console.log("%o", e);
+    //console.log("%o", $('#timeline').find('.item_open_content'));
+    //$('#timeline').find('.item_open_content').each( function (index, e) {
         console.log("Scroll");
-        var height = e.element.height() - 60 - e.element.find('h2').height();
-        e.element.find('.timeline_open_content span').css('max-height', height).mCustomScrollbar({
+        //var element = $(this);
+        var element = e.element;
+        console.log("%o", element);
+        var height = element.height() - 60 - element.find('h2').height();
+        console.log(height);
+        element.find('.timeline_open_content span').css('max-height', height).mCustomScrollbar({
             autoHideScrollbar: true,
             theme: "light-thin"
         });

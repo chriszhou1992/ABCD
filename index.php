@@ -455,5 +455,6 @@
         <script type="text/javascript" src="js/lightbox.min.js"></script>
         
         <script type="text/javascript" src="js/timeline.js"></script>
+        <script type="text/javascript" src="js/customJS/timelineButton.js"></script>
     </body>
 </html>

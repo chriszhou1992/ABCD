@@ -39,15 +39,15 @@ class TimelineNode {
             echo "<div class=\"read_more\" data-id=\"{$this->dataID}\">Read more</div>";
         echo "</div>";
         
-            //echo "<div class=\"item_open\" data-id=\"{$this->dataID}\" data-access=\"{$this->detailsHTML}\">";
-            echo "<div class=\"item_open\" data-id=\"{$this->dataID}\" data-access=\"fetchNodeDetails.php\">";
-            //Ajax vs No Ajax
-        //echo "<div class=\"item_open\" data-id=\"{$this->dataID}\">";
+        //echo "<div class=\"item_open\" data-id=\"{$this->dataID}\" data-access=\"{$this->detailsHTML}\">";
+        echo "<div class=\"item_open\" data-id=\"{$this->dataID}\" data-access=\"fetchNodeTags.php?name={$this->description}\">";
+        //Ajax vs No Ajax
+        /*echo "<div class=\"item_open\" data-id=\"{$this->dataID}\">";
             echo "<div class=\"timeline_open_content\">";
                 echo "<h2 class=\"no-marg-top\">{$this->name}</h2><span>";
                 echo $this->detailsHTML;
             echo "</span></div>";
-            
+        */    
             echo "<div class=\"item_open_content\">";
                 echo "<img class=\"ajaxloader\" src=\"img/loadingAnimation.gif\" alt=\"\" />";
             echo "</div>"; 
