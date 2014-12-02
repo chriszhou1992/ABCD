@@ -126,7 +126,7 @@ function removeFromSuggestList($con, $username, $game) {
     $row = mysqli_fetch_array($result);
 
     if(strlen($row['similar_games']) === 0) {
-         $similar = [];
+         $similar = array();
     }
     else {
         $similar = $row['similar_games'];
@@ -146,7 +146,7 @@ function removeFromSuggestList($con, $username, $game) {
     $row = mysqli_fetch_array($result);
 
     if(strlen($row['gamesMightLike']) === 0) {
-        $mightLike = [];
+        $mightLike = array();
     } else {
         $mightLike = explode("<br>", $row['gamesMightLike']);
         $mightLike = array_slice($mightLike, 1);

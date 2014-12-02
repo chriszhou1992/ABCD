@@ -42,7 +42,7 @@ include_once 'connecToDB.php';
  * @author Chris
  */
 class Timeline {
-    public $nodes = [];
+    public $nodes = array();
     protected $con;
     
     public function __construct() {

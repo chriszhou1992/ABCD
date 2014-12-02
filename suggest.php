@@ -45,14 +45,14 @@ if(!$result) {
 $row = mysqli_fetch_array($result);
 
 if(strlen($row['gamesMightLike']) === 0) {
-    $mightLike = [];
+    $mightLike = array();
 } else {
     $mightLike = explode("<br>", $row['gamesMightLike']);
     $mightLike = array_slice($mightLike, 1);
 }
 
 if(strlen($row['gamesLiked']) === 0) {
-    $gamesLiked = [];
+    $gamesLiked = array();
 } else {
     $gamesLiked = stripslashes( $row['gamesLiked']);
     $gamesLiked = explode("<br>", $gamesLiked);
@@ -60,7 +60,7 @@ if(strlen($row['gamesLiked']) === 0) {
 }
 
 if(strlen($row['gamesDisliked']) === 0) {
-    $disliked = [];
+    $disliked = array();
 } else {
     $disliked = explode("<br>", $row['gamesDisliked']);
     $disliked = array_slice($disliked, 1);

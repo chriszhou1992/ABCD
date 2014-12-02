@@ -49,7 +49,7 @@ body {
 	font-family: 'PT Sans', Sans-Serif;
 	font-size:14px;
 	margin:0;
-	text-align:center;
+	/*text-align:center;*/
 }
 a {
 	text-decoration:none;
@@ -72,7 +72,7 @@ a img {
 }
 
 .selectors {
-	text-align:center;
+	/*text-align:center;*/
 	margin:20px;
 }
 .selectors a {

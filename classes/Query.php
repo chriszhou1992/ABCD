@@ -42,7 +42,7 @@ class Query {
             die('Error: ' . mysqli_error($this->con));
         }
         
-        $found = [];
+        $found =array();
         while ($row = mysqli_fetch_array($result)) {
             if(gettype(stripos($row['name'], $name)) !== "boolean"):
                 $found[] = $row;
@@ -66,7 +66,7 @@ class Query {
             die('Error: ' . mysqli_error($this->con));
         }
         
-        $found = [];
+        $found = array();
         while ($row = mysqli_fetch_array($result)) {
             if(gettype(stripos($row['name'], $name)) !== "boolean"):
                 $found[] = $row;
